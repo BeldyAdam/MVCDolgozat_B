@@ -11,7 +11,7 @@ export default class Controller{
     #esemenykezelo(){
         $(window).on("kattintas", (event)=>{
             console.log("Test");
-            adatLista[event].splice;
+            adatLista.splice;
         })
     }
 }
