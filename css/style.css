@@ -1,5 +1,6 @@
-img {
-    width: 400px;
+img{
+    width: 100%;
+    max-width: 400px;
     height: auto;
 }
 
@@ -14,4 +15,28 @@ img {
 .kartya button{
     border-radius: 15%;
     margin-right: 50px;
+}
+
+footer{
+    text-align: center;
+    height: 25px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
