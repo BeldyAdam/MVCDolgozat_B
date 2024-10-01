@@ -10,13 +10,10 @@ export default class Controller{
 
     #esemenykezelo(){
         $(window).on("kattintas", (event)=>{
-/*             console.log("Test", event);
-            this.torolEsemeny(event.target); */
+             /* console.log("Test", event); */
+            /* this.model.setList(adatLista.id); */
         })
     }
 
-/*     torolEsemeny(event){
-        let szuloElem = $(".kartya");
-        adatLista.splice(event.target)
-    } */
+
 }
